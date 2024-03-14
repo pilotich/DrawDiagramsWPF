@@ -1,0 +1,50 @@
+//string fileContent = File.ReadAllText("C:\\Users\\pilotich\\Desktop\\MyApp\\aassdasdaasd\\aassdasdaasd\\txt.txt");
+            /*string[] rowsData = fileContent.Split(new[] { "], [" }, StringSplitOptions.None);
+            int rows = rowsData.Length;
+            int columns = rowsData[0].Split(',').Length;*/
+
+            /*string[] rowsData = text.Trim('[', ']').Split("],[");
+            int rows = rowsData.Length;
+            int columns = rowsData[0].Split(',').Length;
+
+            int[,] array = new int[rows, columns];
+
+            for (int i = 0; i < rows; i++)
+            {
+                string rowData = rowsData[i].Replace("[", "").Replace("]", "");
+                string[] values = rowData.Split(',');
+
+                for (int j = 0; j < columns; j++)
+                {
+                    if (!string.IsNullOrWhiteSpace(values[j]))
+                    {
+                        array[i, j] = int.Parse(values[j].Trim());
+                    }
+                    else
+                    {
+                        // Действие по умолчанию, если значение пустое или некорректное
+                        array[i, j] = 0;
+                    }
+                }
+            }
+            textBox2.Text = columns.ToString();*/
+            /*dataGridView1.RowCount = rows;
+            dataGridView1.ColumnCount = columns;
+            int q, d;
+            for (q = 0; q < rows; ++q) {
+                for (d = 0; d < columns; ++d)
+                {
+                    dataGridView1.Rows[q].Cells[d].Value = array[q, d];
+                } 
+            }*/
+            //textBox2.Text = array.ToString();
+            //string arrayType = array.GetType().ToString();
+            //textBox2.Text = arrayType;
+
+
+
+            //string fileContent = File.ReadAllText("C:\\Users\\pilotich\\Desktop\\MyApp\\aassdasdaasd\\aassdasdaasd\\txt.txt");
+
+            /*string[] rowsData = fileContent.Split(new[] { "], [" }, StringSplitOptions.None);
+            int rows = rowsData.Length;
+            int columns = rowsData[0].Split(',').Length;*/
